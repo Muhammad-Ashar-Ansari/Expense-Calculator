@@ -63,6 +63,14 @@ button:hover{
 .body p{
     font-size: 1.5em;
 }
+.download-btn{
+    margin:auto;
+    display: block;
+}
+.download-btn:hover{
+    background:black;
+    color: #fff;
+}
 
 @media screen and (min-width:320px){
     .container{width: 100%;}
@@ -84,13 +92,3 @@ button:hover{
     button{font-size: 1em;}
     .body p{text-align: center;padding: 1rem 0;}
 }
-/* @media screen and (min-width:360px){
-    .container{width: 100%;}
-    .header{padding: 1rem 0;}
-    .header h1{font-size: 2.7em;}
-    .header span{font-size: 0.35em;};
-    .header address {font-size: 1em;}
-    .form{width: 90%;}
-    button{font-size: 1em;}
-    .body p{text-align: center;padding: 1rem 0;}
-} */
