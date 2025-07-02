@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rehmani Masjid</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <header class="header">
+            <h1>Rehmani Masjid <span>Reg No: 897 </span></h1>
+            <address>#98/E, Ghungru wali gali, Unit # 11, Latifabad, Hyderabad</address>
+        </header>
+        <section class="body">
+            <form method ="post" class="form">
+                <input type="number" id="previous-balance" placeholder="Enter Previous Balance">
+                <input type="number" id="fri-donation" placeholder="Enter Friday Donations">
+                <input type="number" id="rent" placeholder="Enter Rent">
+                <input type="number" id="other-donation" placeholder="Enter Other Donations">
+                <button id="submit">Calculate</button>
+            </form>
+            <p>Total: <span id="total-result"></span></p>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
