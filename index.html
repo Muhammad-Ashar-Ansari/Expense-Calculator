@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container" id="container">
+    <div class="container" id="pdf-section">
         <header class="header">
             <h1>Rehmani Masjid <span>Reg No: 897 </span></h1>
             <address>#98/E, Ghungru wali gali, Unit # 11, Latifabad, Hyderabad</address>
@@ -22,7 +22,9 @@
             </form>
             <p>Total: <span id="total-result"></span></p>
         </section>
+        <button onclick="downloadPDF()" id="pdf_btn" class="download-btn">Download PDF</button>
     </div>
     <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 </body>
 </html>
